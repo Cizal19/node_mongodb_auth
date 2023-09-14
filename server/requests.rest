@@ -1,0 +1,29 @@
+POST  http://localhost:4001/register 
+Content-Type: application/json
+
+{
+  "first_name": "Karl",
+  "last_name": "Jacobs",
+  "email": "karl@example.com",
+  "password": "password"
+}
+
+###
+
+POST  http://localhost:4001/login
+Content-Type: application/json
+
+{
+  "email": "karl@example.com",
+  "password": "password"
+}
+
+###
+POST  http://localhost:4001/welcome
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwMmUzODRlNjMyZjM5NmJiOTI3YmNkIiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNjk0NjkwODE3LCJleHAiOjE2OTQ2OTgwMTd9.o_8Rxr9welFw_cUG3TikSZ5BmquBpUiYwDOLzRuL-g4"
+}
+
+
